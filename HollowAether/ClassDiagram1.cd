@@ -1,0 +1,1639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HollowAether.HollowAetherGame" Collapsed="true">
+    <Position X="35.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAkEAAAEIQAwAAAAAQAAAAAAAAAAgAAAAACAAAAAQ=</HashCode>
+      <FileName>HollowAether.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.AssetContainer" Collapsed="true">
+    <Position X="32.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Entity\Asset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Asset" Collapsed="true">
+    <Position X="9" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAgAAIAAAAAAEAEAAAAAAAAEACCQAAEADABAAABA=</HashCode>
+      <FileName>Lib\Entity\Asset.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.BooleanAsset" Collapsed="true">
+    <Position X="1.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Entity\Asset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.FlagAsset" Collapsed="true">
+    <Position X="3.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Entity\Asset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.TextureAsset" Collapsed="true">
+    <Position X="5.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Entity\Asset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.PositionAsset" Collapsed="true">
+    <Position X="8" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Entity\Asset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.IntegerAsset" Collapsed="true">
+    <Position X="10.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Entity\Asset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.FloatAsset" Collapsed="true">
+    <Position X="12.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Entity\Asset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.StringAsset" Collapsed="true">
+    <Position X="14.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Entity\Asset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.AnimationAsset" Collapsed="true">
+    <Position X="17" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Entity\Asset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.EntityAttribute" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAICAAIEAQAAAAAAAAAAEAACAAAQAgAIAAABA=</HashCode>
+      <FileName>Lib\Entity\EntityAttributes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HollowAether.Flag" Collapsed="true">
+    <Position X="21.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAAAEAAAAAAAAAAAAAAAAQAAwAoEAAAA=</HashCode>
+      <FileName>Lib\Entity\Flag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.GameEntity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBABAAIAAAIAEAgCAAAAAAAQAIAAAIAAAAAAAABABA=</HashCode>
+      <FileName>Lib\Entity\GameEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.EntityTile" Collapsed="true">
+    <Position X="34" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQACAAAIpAAAgAAgCAIEAEACQAAAAAAGAAAAAAAIAAA=</HashCode>
+      <FileName>Lib\Entity\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.StartUpMethods" Collapsed="true">
+    <Position X="25.25" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAIAAIIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\StartUp\StartUpMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Program" Collapsed="true">
+    <Position X="34" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQAAAAAABgQAAgAAIAAAGFAAACEQBIAARoJEAgAEA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Debug.DebugPrinter" Collapsed="true">
+    <Position X="23.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIAAAAAAAAABgAAAACAAAAAAAAAAACAQAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Debug\DebugPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.AnimationException" Collapsed="true">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\AnimationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.AnimationFileNotFoundException" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\AnimationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.AnimationIncorrectHeaderException" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\AnimationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.AnimationFrameDefinitionFormatException" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\AnimationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.CollisionException" Collapsed="true">
+    <Position X="18.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CollisionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.CommandLineException" Collapsed="true">
+    <Position X="39.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAQAAAAAAAAABAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.EncryptFileException" Collapsed="true">
+    <Position X="32.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.DecryptFileException" Collapsed="true">
+    <Position X="36.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.EncryptDirectoryException" Collapsed="true">
+    <Position X="39.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.DecryptDirectoryException" Collapsed="true">
+    <Position X="43" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.SetMapException" Collapsed="true">
+    <Position X="45.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.SetGameZoomException" Collapsed="true">
+    <Position X="47.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.EncryptFileArgNotFoundException" Collapsed="true">
+    <Position X="31.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.DecryptFileArgNotFoundException" Collapsed="true">
+    <Position X="34" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.EncryptDirectoryArgNotFoundException" Collapsed="true">
+    <Position X="38.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.DecryptDirectoryArgNotFoundException" Collapsed="true">
+    <Position X="40.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.SetGameZoomArgumentIncorrectTypeException" Collapsed="true">
+    <Position X="47.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.FatalException" Collapsed="true">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\FatalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.EntityAttributeInvalidTypeAssignmentException" Collapsed="true">
+    <Position X="13.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\GameEntityExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.EntityAttributeReadOnlyAssignmentAttemptException" Collapsed="true">
+    <Position X="16" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\GameEntityExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.EntityAttributeReadOnlyDeletionException" Collapsed="true">
+    <Position X="20.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\GameEntityExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.EntityAttributeUnassignedValueRetrievalException" Collapsed="true">
+    <Position X="49.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\GameEntityExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.HUDHealthRangeException" Collapsed="true">
+    <Position X="53" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\HUDExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.HUDHealthAdditionException" Collapsed="true">
+    <Position X="52" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\HUDExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.HUDHealthSubtractionException" Collapsed="true">
+    <Position X="54.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\HUDExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.ValueWithoutSectionHeaderDefinedException" Collapsed="true">
+    <Position X="56.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\INIParserExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.InvalidLineInINIFileException" Collapsed="true">
+    <Position X="58.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\INIParserExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.MapException" Collapsed="true">
+    <Position X="68.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.MapNotFoundException" Collapsed="true">
+    <Position X="74.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.MapFileCouldntBeReadException" Collapsed="true">
+    <Position X="76.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.MapHeaderException" Collapsed="true">
+    <Position X="61" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.MapSyntaxException" Collapsed="true">
+    <Position X="66.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.MapLineConversionException" Collapsed="true">
+    <Position X="63.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.MapRepeatedFlagCreationException" Collapsed="true">
+    <Position X="65.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.MapFileDefinesZoneAtSamePositionTwiceException" Collapsed="true">
+    <Position X="67.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.MapUnknownVisibilityException" Collapsed="true">
+    <Position X="70" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.ZoneException" Collapsed="true">
+    <Position X="26" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.ZoneNotFoundException" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.ZoneFileCouldntBeReadException" Collapsed="true">
+    <Position X="72.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.ZoneHeaderException" Collapsed="true">
+    <Position X="25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.ZoneSyntaxException" Collapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.ZoneCouldNotFindAssetToImportException" Collapsed="true">
+    <Position X="27.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.ZoneAssetNotFoundException" Collapsed="true">
+    <Position X="29.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.AssetAssignmentException" Collapsed="true">
+    <Position X="79" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.ZoneWithGivenMapIndexNotFoundException" Collapsed="true">
+    <Position X="81.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\MZExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.SaveSystemException" Collapsed="true">
+    <Position X="86.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\SaveSystemExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.SaveFileInvalidHeaderException" Collapsed="true">
+    <Position X="83.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\SaveSystemExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.SaveFileDoesntExistAtChosenSlotException" Collapsed="true">
+    <Position X="85.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\SaveSystemExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.SaveSlotOutOfRangeException" Collapsed="true">
+    <Position X="88" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\SaveSystemExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.CE.SaveFileCorruptedException" Collapsed="true">
+    <Position X="90.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\ChildExceptions\SaveSystemExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Exceptions.HollowAetherException" Collapsed="true">
+    <Position X="47.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Exceptions\HollowAetherException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.ErrorMessage" Collapsed="true">
+    <Position X="35.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAQQAABGIAABAKBACAAAACgAAACQAIAAAAAABAAAA=</HashCode>
+      <FileName>Lib\Forms\ErrorMessage\ErrorMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.SetInitialZone" Collapsed="true">
+    <Position X="32.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQGEAAACQgABBAAACAAAgCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Assistive Classes\Forms\SetInitialZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.Editor" Collapsed="true">
+    <Position X="28.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAVCEOkIkChCANFSEKCWgAFDl2ABASgECCEAIBACEAA=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Editor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.CanvasRegionBox" Collapsed="true">
+    <Position X="28.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IHFyIAAILLAAKhAgEAjCAlACjAYACoIAQkBogCYpVGw=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Assistive Classes\Classes\CanvasRegionBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.TileBox" Collapsed="true">
+    <Position X="27" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAEAAABIoBAAIAKQABQQiBQAwgIoCcAAAIIAAE=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Assistive Classes\Classes\TileBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.AnimationView" Collapsed="true">
+    <Position X="28.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAgACEABQHAAAAAAABCAAABCgAEKAABYAAAJAQEAgAA=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\AnimationView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.AnimationViewDataStore" Collapsed="true">
+    <Position X="30.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAIEIQCQAAACCAAAAgAAAAQACEAEAAAAAAA=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\AnimationViewDataStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.EditFrameDialog" Collapsed="true">
+    <Position X="27" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQUAOFAAADQhAjAAEAKoAAIGACBIAZRCAQAwURCABQA=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\EditFrameDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.TileMap" Collapsed="true">
+    <Position X="28.75" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEBCAKACAAASgBAJSBAAgCAIAkAQRAAAEQAAAAARA=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Assistive Classes\Forms\TileMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.ZoneFeatures" Collapsed="true">
+    <Position X="21.75" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGEAAACQgABBAAACAAAgCAAAAAQAQAACAABAAAAI=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Assistive Classes\Forms\ZoneFeatures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.ZoneEditor" Collapsed="true">
+    <Position X="35.75" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pp8OQq+iVDBELVEuGKCgzJAXJ6oqWCPFjqGXVhbEZQA=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Editor\Lib\Classes\ZoneEditor_SelectionRectImplement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.AssetView" Collapsed="true">
+    <Position X="35.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAIAIAACBAIACAAgiAAAASAAAKgBgAAAKQAAARAAA=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Editor\Lib\Forms\Asset View\AssetView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.NewAssetDialog" Collapsed="true">
+    <Position X="23.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAAAACQAQAAAAACCAIACAIAIAAAAAIgQQBAAAAQ=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Editor\Lib\Forms\Asset View\NewAssetDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.EditEntityView" Collapsed="true">
+    <Position X="25.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAFAABAAACRAACEAIACIIADSAJQIEAQEAAAUQDAAAQA=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Editor\Lib\Forms\EditEntityView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.SetZoneDimensions" Collapsed="true">
+    <Position X="21.75" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAIAAAACQAAAIABAKAAAACAACIAAAAAAAQQBAAAAM=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Editor\Lib\Forms\SetZoneDimensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.SetZoomDialog" Collapsed="true">
+    <Position X="23.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACQgEBAAAACAAACCAIIIAAAAAAAQQAAAAAA=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Editor\Lib\Forms\SetZoomDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.Help" Collapsed="true">
+    <Position X="34" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAEAAAAgAAA=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Help\Help.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Forms.LevelEditor.ScriptEditor" Collapsed="true">
+    <Position X="30.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JJAgAgAgACAAQAQCQACEgEACAgBAAGgAEAggAAAAAAA=</HashCode>
+      <FileName>Lib\Forms\LevelEditor\Script\ScriptEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Animation" Collapsed="true">
+    <Position X="23.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CARANAABiAAEg0QATAGGIEAKEAEAAAgEAAIBBAUAAIA=</HashCode>
+      <FileName>Lib\GAssets\Animation\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.AnimationChain" Collapsed="true">
+    <Position X="25.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAgAEAgEAAACAAAABAACICAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Lib\GAssets\Animation\AnimationChain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.AnimationSequence" Collapsed="true">
+    <Position X="27" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAUAAAACAAgEAACAAAAEBAACAABAABAAACAQAAAAE=</HashCode>
+      <FileName>Lib\GAssets\Animation\AnimationSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Background" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\BG+FG\Background.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.BackgroundLayer" Collapsed="true">
+    <Position X="3" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAjAAAAAAAAAAgAAQIAIAAAEAQCgAAAAAAIAAQACigg=</HashCode>
+      <FileName>Lib\GAssets\BG+FG\Background.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.MovingBackgroundLayer" Collapsed="true">
+    <Position X="0.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Lib\GAssets\BG+FG\Background.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.StretchedBackgroundLayer" Collapsed="true">
+    <Position X="3" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\BG+FG\Background.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.ScaledBackgroundLayer" Collapsed="true">
+    <Position X="5.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Lib\GAssets\BG+FG\Background.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.MovingScaledBackgroundLayer" Collapsed="true">
+    <Position X="5.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Lib\GAssets\BG+FG\Background.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Transition" Collapsed="true">
+    <Position X="30.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAEAAACAAAAAACAAAAgQAAAEAAAAQAAAAAAAAAEIA=</HashCode>
+      <FileName>Lib\GAssets\BG+FG\Transition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Block" Collapsed="true">
+    <Position X="21.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAEAAAAAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>Lib\GAssets\Blocks\Block.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.GravityBlock" Collapsed="true">
+    <Position X="26.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAgAAAEAAAAAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>Lib\GAssets\Blocks\GravityBlock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.BodySprite" Collapsed="true">
+    <Position X="37.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUBBABAgAAAAAAAAAIABBQAAAgAgEAAgCSEAAAAIBA=</HashCode>
+      <FileName>Lib\GAssets\BodySprite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.CollisionChecker" Collapsed="true">
+    <Position X="32.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACkAAQAEAAAAAAAAAAEASQQEEBKAAAAAAEAAAA=</HashCode>
+      <FileName>Lib\GAssets\Boundary\CollisionChecking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.IBTriangle" Collapsed="true">
+    <Position X="5.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAwAESAACAAAAAAAAAAAAAAAAAAAQgIA=</HashCode>
+      <FileName>Lib\GAssets\Boundary\CollisionChecking.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.IBRotatedRectangle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEEIAQAFAAAAoAQAIKEIEEAgACAAgAASgQAABAg4IA=</HashCode>
+      <FileName>Lib\GAssets\Boundary\CollisionChecking.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.PositionsContainer" Collapsed="true">
+    <Position X="32.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Boundary\PositionsContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.IBRightAngledTriangle" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgBCAAAIAAAAAAAAAABgAAAAABAAAAAAAAAAAAEAI=</HashCode>
+      <FileName>Lib\GAssets\Boundary\Shapes\IBTriangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.CollideableSprite" Collapsed="true">
+    <Position X="44.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAwCAgAAAAAAAAAAAAkAAAAQAAAgABII=</HashCode>
+      <FileName>Lib\GAssets\CollideableSprite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.HitSprite" Collapsed="true">
+    <Position X="12.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAAAAAAgAAAAAAAAAQAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Effects\HitSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Sprite" Collapsed="true">
+    <Position X="36.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAADQAEg4AgggIAIMAAAAEAAgAEQKIAAAhAAQA=</HashCode>
+      <FileName>Lib\GAssets\EntityAttributes\Definitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.GenericSprite" Collapsed="true">
+    <Position X="6" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAEAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\EntityAttributes\Definitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Player" Collapsed="true">
+    <Position X="24" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQJDkChgVBAQwpJAQJGIFwAIaCAIgBqWQjMHAiAgFI=</HashCode>
+      <FileName>Lib\GAssets\EntityAttributes\Definitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Bat" Collapsed="true">
+    <Position X="37.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAREAGAIAAAABSgAAQAQIEAAAQAAAQAASAAEMABAAEI=</HashCode>
+      <FileName>Lib\GAssets\EntityAttributes\Definitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Crusher" Collapsed="true">
+    <Position X="39.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABAGACAAAAAAAAAAAQAEAAAQAAgAEASAAEECAAgAI=</HashCode>
+      <FileName>Lib\GAssets\EntityAttributes\Definitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Fortress" Collapsed="true">
+    <Position X="42" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQIEGABAAAAAQAAAAAQAEAAAQAIAiAASEAFECDACAI=</HashCode>
+      <FileName>Lib\GAssets\EntityAttributes\Definitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Goo" Collapsed="true">
+    <Position X="33" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAASAAEAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\EntityAttributes\Definitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.GooBaby" Collapsed="true">
+    <Position X="35.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAASAAEAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\EntityAttributes\Definitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Jumper" Collapsed="true">
+    <Position X="44.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAGAAAgAAAQAIAAgQAEAAAQAAAAAASAAEEAAAAgI=</HashCode>
+      <FileName>Lib\GAssets\EntityAttributes\Definitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Inventory" Collapsed="true">
+    <Position X="32.25" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Inventory\Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Chest" Collapsed="true">
+    <Position X="28.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAACIAAAAAAAAAAAAQAAAAIAAAAAAASAAEEAAAAIA=</HashCode>
+      <FileName>Lib\GAssets\Items\Chests\Chest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.BurstPoint" Collapsed="true">
+    <Position X="46.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQACAIAAAAAAEAAEAAAQAAAIAAAAAAAQAAhAAAQABI=</HashCode>
+      <FileName>Lib\GAssets\Items\Points\BurstPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Coin" Collapsed="true">
+    <Position X="48.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAIAABAAAASAAkIAAABAI=</HashCode>
+      <FileName>Lib\GAssets\Items\Points\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.TreasureItem" Collapsed="true">
+    <Position X="47.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoSAQCMAAIEACAEAAAAAAAQkIAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Items\Points\TreasureItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.EnemyHealthBar" Collapsed="true">
+    <Position X="30.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAABAAAjgAgAAAAAEABEAAAAAAAAAAAgAAAgAA=</HashCode>
+      <FileName>Lib\GAssets\Living\Enemies\Assist\EnemyHealthBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.EnemyProjectile" Collapsed="true">
+    <Position X="60" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAAEAAI=</HashCode>
+      <FileName>Lib\GAssets\Living\Enemies\Assist\EnemyProjectile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Fireball" Collapsed="true">
+    <Position X="60" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAQAAAEAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Living\Enemies\Assist\EnemyProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Crawler" Collapsed="true">
+    <Position X="30.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAQAAAAAASAAEEAAAAAI=</HashCode>
+      <FileName>Lib\GAssets\Living\Enemies\Crawler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.GooParent" Collapsed="true">
+    <Position X="34" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACQBAAgAAAAAAAAABAAAAQAAAAAAACAAEAAAABI=</HashCode>
+      <FileName>Lib\GAssets\Living\Enemies\Goo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Enemy" Collapsed="true">
+    <Position X="37.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCCCAAgAAAA4gAAAAAIACQAYAAAgQBAAAIECAQAAA=</HashCode>
+      <FileName>Lib\GAssets\Living\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.IntersectingPositions" Collapsed="true">
+    <Position X="30.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAEQAMAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\TypeDef\IntersectingPositions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.VolatileSprite" Collapsed="true">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Volatile\Implementation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.VolatileCollideableSprite" Collapsed="true">
+    <Position X="58.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Volatile\Implementation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.VolatileBodySprite" Collapsed="true">
+    <Position X="39.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Volatile\Implementation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Weapon" Collapsed="true">
+    <Position X="65.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUEIAAAEAgFhAAAIAAAAAAAwKAAAAKAEQAAAAAAYAA=</HashCode>
+      <FileName>Lib\GAssets\Weapons\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.SwordLikeWeapon" Collapsed="true">
+    <Position X="66.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IADKBABIGgAFBAAQAAgAQATAqKAAEASgQQAAAICCYoo=</HashCode>
+      <FileName>Lib\GAssets\Weapons\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.PushArgs" Collapsed="true">
+    <Position X="21.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CARCEAAAAAAAAAAAAAAAEAAgAAAACgACARAAACAAAAA=</HashCode>
+      <FileName>Lib\Misc\PushArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Boundary.CollisionCalculators" Collapsed="true">
+    <Position X="30.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAQAAAAAAAEEAIAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Boundary\Container\Assistance\CollisionCalculators.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Boundary.BoundaryShared" Collapsed="true">
+    <Position X="23.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Lib\GAssets\Boundary\Container\Assistance\Shared.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Camera2D" Collapsed="true">
+    <Position X="27" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAAgAAAIAwJAIAAIAAACAAAABAAAAAgAAAgCA=</HashCode>
+      <FileName>Lib\GAssets\Camera\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.HUD" Collapsed="true">
+    <Position X="23.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gG4CCEAIAACABgCAAAAAMGAAAEAAySAaAQqEow4EIQA=</HashCode>
+      <FileName>Lib\GAssets\HUD\Hud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.RemovalBatch" Collapsed="true">
+    <Position X="23.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Lib\Global\Batches.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.AdditionBatch" Collapsed="true">
+    <Position X="21.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAACAAAEAAQA=</HashCode>
+      <FileName>Lib\Global\Batches.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GlobalVars" Collapsed="true">
+    <Position X="30.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAIA=</HashCode>
+      <FileName>Lib\Global\GlobalVars\BasicMath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.MonoGameObjectStore" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAAAAAABBACAAABARAAQAAEAAEAACAAEEAAQA=</HashCode>
+      <FileName>Lib\Global\MonoGameObjectStore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HollowAether.Lib.God" Collapsed="true">
+    <Position X="32.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Lib\God.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.FX.DashOverlay" Collapsed="true">
+    <Position X="8.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAEAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Effects\DashOverlay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.FX.FXSprite" Collapsed="true">
+    <Position X="10.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Effects\FX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.FX.ValueChangedEffect" Collapsed="true">
+    <Position X="10.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAMAAAAAAAAACAAAAAAAAAAAAAgGSASAQEABAAABA=</HashCode>
+      <FileName>Lib\GAssets\Effects\ValueChangedEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Items.SaveStation" Collapsed="true">
+    <Position X="53.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAGAAAAAAAAAAAAAQAEAAIACAAAACQAAAEAAAAAI=</HashCode>
+      <FileName>Lib\GAssets\EntityAttributes\Definitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Items.TreasureChest" Collapsed="true">
+    <Position X="28.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAAAAAAAAAACAAAEAAIAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Lib\GAssets\EntityAttributes\Definitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Items.Gate" Collapsed="true">
+    <Position X="55.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAACAAACAAAAAAAAAAAAAAIAAAAAAACAAEAAAAAAI=</HashCode>
+      <FileName>Lib\GAssets\Items\Gates\Gate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Items.HealthPickup" Collapsed="true">
+    <Position X="57.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAACEAAAAAAAAAAAAAAAAEIAAAAAAASAAkAAAAAAI=</HashCode>
+      <FileName>Lib\GAssets\Items\HealthPickup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Items.HeartCanister" Collapsed="true">
+    <Position X="62.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAACAAgAAAAAAAgAAAAAAAIAAgAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>Lib\GAssets\Items\HeartCanister.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Items.Key" Collapsed="true">
+    <Position X="51" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAACAAgAAAAAAAgAAAAAAAIAAhAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>Lib\GAssets\Items\Key.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Items.Gates.OpenGate" Collapsed="true">
+    <Position X="55.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAAAAAAAAAAAgAAAEAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\EntityAttributes\Definitions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.HUD.ContextMenu" Collapsed="true">
+    <Position X="35.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AD8KAKACQAAARgIQARIcIyAAIgAbAkIwMFg4wUYkBIg=</HashCode>
+      <FileName>Lib\GAssets\HUD\ContextMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.HUD.GamePadButtonIcon" Collapsed="true">
+    <Position X="69" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEQAAABAAAAAAAAAAAAAAAAAAAAAAjAgSAAUAIDACAA=</HashCode>
+      <FileName>Lib\GAssets\HUD\GamePadButtonIcon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.HUD.GamePadButtonIconWithText" Collapsed="true">
+    <Position X="69" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAgAAAIIAAAAAAAAAAAAAAAAQCAACAAA=</HashCode>
+      <FileName>Lib\GAssets\HUD\GamePadButtonIconWithText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.HUD.HeartSprite" Collapsed="true">
+    <Position X="3.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAKAAIAAAAgAAAQAUAAAACEAAAAiAIQABAAgCAKQg=</HashCode>
+      <FileName>Lib\GAssets\HUD\HeartSprite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.HUD.PointDisplay" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RIQDAIACIAAAggCoEAJDIAAAwFQAQiBABAAGAADACAA=</HashCode>
+      <FileName>Lib\GAssets\HUD\PointDisplay.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Volatile.VolatilityManager" Collapsed="true">
+    <Position X="1.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAJAQAAAAAAAgAAAAAAAAIAAEAAIAAAAAAAAAABAA=</HashCode>
+      <FileName>Lib\GAssets\Volatile\Implementation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Volatile.OtherVolatilityManager" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Volatile\Implementation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Volatile.TimeoutVolatilityManager" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAQAAAAEAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Volatile\Implementation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Weapons.Shuriken" Collapsed="true">
+    <Position X="64.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAEAoEBAAAAAAQAKAAAKAAEACgQQAAEAAAAEI=</HashCode>
+      <FileName>Lib\GAssets\Weapons\Shuriken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GAssets.Weapons.Sword" Collapsed="true">
+    <Position X="66.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAABAIKAAAAAAAAAAAIAAAgA=</HashCode>
+      <FileName>Lib\GAssets\Weapons\Sword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.GameWindows" Collapsed="true">
+    <Position X="28.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAiAgAAAAAAAAAAgA=</HashCode>
+      <FileName>Lib\Global\GameWindow\(Window).cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.GamePaused" Collapsed="true">
+    <Position X="25.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAABggAAAAAIAAAAAAAAAAAAAAAACACAAA=</HashCode>
+      <FileName>Lib\Global\GameWindow\GamePaused.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.GameRunning" Collapsed="true">
+    <Position X="27" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQUAACkQAJAADgAAAAAAAIEAAAIQIAQSIAAAAKAAAAg=</HashCode>
+      <FileName>Lib\Global\GameWindow\GameRunning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.Button" Collapsed="true">
+    <Position X="17.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAEAAAABAgSAAEIAAAAgA=</HashCode>
+      <FileName>Lib\Global\GameWindow\GameWindowAssets\Button.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.ButtonList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEQIAAABAAAAAhAAKAAAAAFAAAAAAAAEAAACIAAAQAA=</HashCode>
+      <FileName>Lib\Global\GameWindow\GameWindowAssets\ButtonList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.MultichoiceButton" Collapsed="true">
+    <Position X="15" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ANIEAAAAABAgAgAABAAAAAAAAAAAIAAQwAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Global\GameWindow\GameWindowAssets\MultichoiceButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.PushableText" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAEAAAAggAgAAAAAAAAAAAAAiCAAAAAAACCCAg=</HashCode>
+      <FileName>Lib\Global\GameWindow\GameWindowAssets\PushableText.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.SaveButton" Collapsed="true">
+    <Position X="17.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAAgAAAAAAAAEAEAAAAAAAQAAEAAAAAAA=</HashCode>
+      <FileName>Lib\Global\GameWindow\GameWindowAssets\SaveButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.TextButton" Collapsed="true">
+    <Position X="19.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACYAAAAAAAAgAwAgAIAAAAAAAAAAAAAAQAAgAAAAAAA=</HashCode>
+      <FileName>Lib\Global\GameWindow\GameWindowAssets\TextButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.Home" Collapsed="true">
+    <Position X="21.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAADgAAIAAAQAAACAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Global\GameWindow\Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.PlayerDeceased" Collapsed="true">
+    <Position X="28.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAgADggAIAAAQAAAAAAAAAAAAAAAAUAQAAA=</HashCode>
+      <FileName>Lib\Global\GameWindow\PlayerDeceased.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.SaveLoad" Collapsed="true">
+    <Position X="27" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAADwABIAAAQCAAAIQAAIAAAAAAACAQAAA=</HashCode>
+      <FileName>Lib\Global\GameWindow\SaveLoad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.GameWindow.Settings" Collapsed="true">
+    <Position X="34" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAADgAAIACAQAAADEQAAAAAAAAAACAQAAA=</HashCode>
+      <FileName>Lib\Global\GameWindow\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.InputOutput.InputOutputManager" Collapsed="true">
+    <Position X="28.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAEEAAAAQAgAFAAAAAAggAABAAABEAACCAwBCDA=</HashCode>
+      <FileName>Lib\InputOutput\InputOutputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.InputOutput.SaveManager" Collapsed="true">
+    <Position X="28.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAEACAAKAAAAAAAAEEAAAEAAAAAAg=</HashCode>
+      <FileName>Lib\InputOutput\SaveManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.InputOutput.SettingsManager" Collapsed="true">
+    <Position X="35.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAIACAAAAEAAAAgAAAEAEACAAAAAAAQAAAAAAgAA=</HashCode>
+      <FileName>Lib\InputOutput\SettingsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.MapZone.AssetTrace" Collapsed="true">
+    <Position X="34" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAkEAAAAAAAAAAAAAAABBCAAAAgFAAKA=</HashCode>
+      <FileName>Lib\InputOutput\MapZone\AssetTrace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.MapZone.Map" Collapsed="true">
+    <Position X="34" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQIAAQBAAAAAUCACAAAAAQBFAAAAABAAYFABFEAAMA=</HashCode>
+      <FileName>Lib\InputOutput\MapZone\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.MapZone.Zone" Collapsed="true">
+    <Position X="34" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAEAABAIgSAAAAAAAAAgAQAABSAEAABIDAAQAAA=</HashCode>
+      <FileName>Lib\InputOutput\MapZone\Zone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Encryption.OneTimePad" Collapsed="true">
+    <Position X="25.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAABAQJAAAAQAAIEAAQAAEAAAAAgAECAAAAAAAA=</HashCode>
+      <FileName>Lib\InputOutput\OneTimePad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.InputOutput.Parsers.INIParser" Collapsed="true">
+    <Position X="27" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\InputOutput\Parsers\IniParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.InputOutput.Parsers.MapParser" Collapsed="true">
+    <Position X="35.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEAABAAQAECAAAAQEIAiAAIAACAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Lib\InputOutput\Parsers\MapParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.InputOutput.Parsers.Converters" Collapsed="true">
+    <Position X="21.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACgAAAAAAAAAAAgAAAAABAAAAEAAAA=</HashCode>
+      <FileName>Lib\InputOutput\Parsers\Parser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.InputOutput.Parsers.Parser" Collapsed="true">
+    <Position X="27" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAUAAAAAABAAAACAAIYAAIAAAAAAAEAAAAA=</HashCode>
+      <FileName>Lib\InputOutput\Parsers\Parser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.InputOutput.Parsers.ZoneParser" Collapsed="true">
+    <Position X="23.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgQAABBAGABAAEAAACAgCQAoYAKIAIAAEAAABAAAA=</HashCode>
+      <FileName>Lib\InputOutput\Parsers\ZoneCommandImplement\Assistance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Text.ColoredString" Collapsed="true">
+    <Position X="34" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAEghgQIAAAAAEAgAAAAAAAAAAQAADEAIEA=</HashCode>
+      <FileName>Lib\Misc\Colored.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Lib.Misc.Ugly" Collapsed="true">
+    <Position X="32.25" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Lib\Misc\Ugly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HollowAether.Properties.Resources" Collapsed="true">
+    <Position X="25.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAACAAAAEBEAAAAwAAAAAAAAAAAABAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="HollowAether.Lib.GAssets.Frame" Collapsed="true">
+    <Position X="23.5" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAGkAAgAQAEaEgBAAJAAAAQAIQAAgAAAAASIAAIA=</HashCode>
+      <FileName>Lib\GAssets\Animation\Frame.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HollowAether.Lib.GAssets.IBRectangle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAQABQIAAAAEgAIQAEAAAAQIAIAACACAAQAY4qA=</HashCode>
+      <FileName>Lib\GAssets\Boundary\CollisionChecking.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="HollowAether.Lib.GAssets.IBCircle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQACAAAAgAAAAAIAAAAAAAAAAEAAgAAIAAQ4IA=</HashCode>
+      <FileName>Lib\GAssets\Boundary\CollisionChecking.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="HollowAether.Lib.GAssets.LabelledBoundaryContainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAQICAAACBAACggAACCBAIAAAAAEAAAAAAEAkIA=</HashCode>
+      <FileName>Lib\GAssets\Boundary\Container\Labelled.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="HollowAether.Lib.GAssets.SequentialBoundaryContainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.25" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAQACAAAABAAAggAACCJAIAAAAAEAAAAAAEAkIA=</HashCode>
+      <FileName>Lib\GAssets\Boundary\Container\Sequential.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="HollowAether.Lib.GAssets.Boundary.DeltaPositions" Collapsed="true">
+    <Position X="21.75" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAABAAABQEQAIAAAwAAAAIAIAAAAAAAAADgAA=</HashCode>
+      <FileName>Lib\GAssets\Boundary\Container\Assistance\DeltaPositions.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HollowAether.Lib.Line" Collapsed="true">
+    <Position X="30.5" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABACAAAAAAAAEQIAAAABAgAABIAAAAAAACAABAIg=</HashCode>
+      <FileName>Lib\GAssets\Boundary\Shapes\Line.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="HollowAether.Lib.IBlock" Collapsed="true">
+    <Position X="21.75" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IBlock.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IBody" Collapsed="true">
+    <Position X="23.5" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IBody.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IBoundary" Collapsed="true">
+    <Position X="25.25" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIA=</HashCode>
+      <FileName>Lib\Interfaces\IBoundary.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IBoundaryContainer" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAQACAAAAAAAAggAAACBAAAAAAAEAAAAAAAAgIA=</HashCode>
+      <FileName>Lib\Interfaces\IBoundaryContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.ILabelledBoundaryContainer" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IBoundaryContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.ICollideable" Collapsed="true">
+    <Position X="27" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABIA=</HashCode>
+      <FileName>Lib\Interfaces\ICollideable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IContextualised" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IContextualised.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IDamaging" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IDamage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IDamagingToPlayer" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IDamage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IDamagingToEnemies" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IDamage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IInitializableEntity" Collapsed="true">
+    <Position X="28.75" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IInitializableEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IInteractable" Collapsed="true">
+    <Position X="17.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.ITimeoutSupportedInteractable" Collapsed="true">
+    <Position X="16.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IAutoInteractable" Collapsed="true">
+    <Position X="18.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.ITimeoutSupportedAutoInteractable" Collapsed="true">
+    <Position X="18.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IItem" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IUpdateable" Collapsed="true">
+    <Position X="9.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IMonoGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IAnimationUpdateable" Collapsed="true">
+    <Position X="8.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IMonoGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IGeneralUpdateable" Collapsed="true">
+    <Position X="10.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IMonoGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IDrawable" Collapsed="true">
+    <Position X="13.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IMonoGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IMonoGameObject" Collapsed="true">
+    <Position X="8.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAQAggAAAIAAAAAAAAAAAAKAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IMonoGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IPredefinedTexture" Collapsed="true">
+    <Position X="30.5" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IPredefinedTexture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IPushable" Collapsed="true">
+    <Position X="32.25" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAiAAAAAAAACACAA=</HashCode>
+      <FileName>Lib\Interfaces\IPushable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HollowAether.Lib.IVolatile" Collapsed="true">
+    <Position X="34" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Lib\Interfaces\IVolatile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="HollowAether.Lib.GAssets.PlayerPerks" Collapsed="true">
+    <Position X="25.25" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Lib\GAssets\Living\Player.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HollowAether.Lib.GAssets.Direction" Collapsed="true">
+    <Position X="21.75" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAIAAAACACAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\TypeDef\IntersectingPositions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HollowAether.Lib.GAssets.VolatilityType" Collapsed="true">
+    <Position X="27" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Volatile\Implementation.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HollowAether.Lib.GameState" Collapsed="true">
+    <Position X="23.5" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAEAgAAABAAAAAAAAAAAAAAAAQAAAAAgAAAAAAAAEA=</HashCode>
+      <FileName>Lib\Global\GameStates.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="HollowAether.Lib.GAssets.ImplementVolatility" Collapsed="true">
+    <Position X="21.75" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\GAssets\Volatile\Implementation.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

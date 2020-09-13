@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F4E35B5-4313-4D84-A7B0-26FB561F63F0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HollowAether</RootNamespace>
+    <AssemblyName>HollowAether</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\%28Build%29\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\%28Build%29\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>HA.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="HollowAether.cs" />
+    <Compile Include="Lib\Debug\DebugPrinter.cs" />
+    <Compile Include="Lib\Entity\Asset.cs" />
+    <Compile Include="Lib\Entity\EntityAttributes.cs" />
+    <Compile Include="Lib\Entity\Flag.cs" />
+    <Compile Include="Lib\Entity\Tile.cs" />
+    <Compile Include="Lib\Exceptions\ChildExceptions\CommandLineExceptions.cs" />
+    <Compile Include="Lib\Exceptions\ChildExceptions\GameEntityExceptions.cs" />
+    <Compile Include="Lib\Exceptions\ChildExceptions\HUDExceptions.cs" />
+    <Compile Include="Lib\Exceptions\ChildExceptions\INIParserExceptions.cs" />
+    <Compile Include="Lib\Exceptions\ChildExceptions\MZExceptions.cs" />
+    <Compile Include="Lib\Exceptions\ChildExceptions\SaveSystemExceptions.cs" />
+    <Compile Include="Lib\Exceptions\HollowAetherException.cs" />
+    <Compile Include="Lib\Forms\ErrorMessage\ErrorMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\ErrorMessage\ErrorMessage.Designer.cs">
+      <DependentUpon>ErrorMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\AnimationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\AnimationView.Designer.cs">
+      <DependentUpon>AnimationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\AnimationViewDataStore.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\EditFrameDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\EditFrameDialog.Designer.cs">
+      <DependentUpon>EditFrameDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Entity\GameEntity.cs" />
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Classes\CanvasRegionBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Classes\TileBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\RenameAnimationSequenceDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\RenameAnimationSequenceDialog.Designer.cs">
+      <DependentUpon>RenameAnimationSequenceDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor.Designer.cs">
+      <DependentUpon>Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\Asset View\AssetView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\Asset View\AssetView.Designer.cs">
+      <DependentUpon>AssetView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\Asset View\NewAssetDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\Asset View\NewAssetDialog.Designer.cs">
+      <DependentUpon>NewAssetDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\EditEntityView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\EditEntityView.designer.cs">
+      <DependentUpon>EditEntityView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\TileMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\TileMap.Designer.cs">
+      <DependentUpon>TileMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\SetZoneDimensions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\SetZoneDimensions.Designer.cs">
+      <DependentUpon>SetZoneDimensions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\SetZoomDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\SetZoomDialog.Designer.cs">
+      <DependentUpon>SetZoomDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\ZoneEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\ZoneEditor.Designer.cs">
+      <DependentUpon>ZoneEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Editor\Lib\Classes\ZoneEditor_SelectionRectImplement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Help\Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Help\Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\ZoneFeatures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\ZoneFeatures.Designer.cs">
+      <DependentUpon>ZoneFeatures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Script\ScriptEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Script\ScriptEditor.Designer.cs">
+      <DependentUpon>ScriptEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\SetInitialZone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\SetInitialZone.Designer.cs">
+      <DependentUpon>SetInitialZone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\GAssets\Animation\Animation.cs" />
+    <Compile Include="Lib\GAssets\Animation\AnimationChain.cs" />
+    <Compile Include="Lib\GAssets\Animation\AnimationSequence.cs" />
+    <Compile Include="Lib\GAssets\Animation\Frame.cs" />
+    <Compile Include="Lib\GAssets\BG+FG\Background.cs" />
+    <Compile Include="Lib\GAssets\BG+FG\Transition.cs" />
+    <Compile Include="Lib\GAssets\Blocks\AngledBlock.cs" />
+    <Compile Include="Lib\GAssets\Blocks\Block.cs" />
+    <Compile Include="Lib\GAssets\Blocks\GravityBlock.cs" />
+    <Compile Include="Lib\GAssets\Boundary\CollisionChecking.cs" />
+    <Compile Include="Lib\GAssets\Boundary\Container\Assistance\CollisionCalculators.cs" />
+    <Compile Include="Lib\GAssets\Boundary\Container\Assistance\DeltaPositions.cs" />
+    <Compile Include="Lib\GAssets\Boundary\Container\Assistance\Shared.cs" />
+    <Compile Include="Lib\GAssets\Boundary\Container\Labelled.cs" />
+    <Compile Include="Lib\GAssets\Boundary\Container\Sequential.cs" />
+    <Compile Include="Lib\GAssets\Boundary\PositionsContainer.cs" />
+    <Compile Include="Lib\GAssets\Boundary\Shapes\IBCircle.cs" />
+    <Compile Include="Lib\GAssets\Boundary\Shapes\IBRectangle.cs" />
+    <Compile Include="Lib\GAssets\Boundary\Shapes\IBTriangle.cs" />
+    <Compile Include="Lib\GAssets\Boundary\Shapes\Line.cs" />
+    <Compile Include="Lib\GAssets\Boundary\Shapes\IBRotatedRectangle.cs" />
+    <Compile Include="Lib\GAssets\Camera\CameraBUP2.cs" />
+    <Compile Include="Lib\GAssets\Camera\CameraBUP.cs" />
+    <Compile Include="Lib\GAssets\CollideableSprite.cs" />
+    <Compile Include="Lib\GAssets\Effects\DashOverlay.cs" />
+    <Compile Include="Lib\GAssets\Effects\HitSprite.cs" />
+    <Compile Include="Lib\GAssets\EntityAttributes\Definitions.cs" />
+    <Compile Include="Lib\GAssets\FrameCounter\FrameCounter.cs" />
+    <Compile Include="Lib\GAssets\HUD\ContextMenu.cs" />
+    <Compile Include="Lib\GAssets\Effects\FX.cs" />
+    <Compile Include="Lib\GAssets\Effects\ValueChangedEffect.cs" />
+    <Compile Include="Lib\GAssets\HUD\ContextMenuSprites.cs" />
+    <Compile Include="Lib\GAssets\HUD\GamePadButtonIcon.cs" />
+    <Compile Include="Lib\GAssets\HUD\GamePadButtonIconWithText.cs" />
+    <Compile Include="Lib\GAssets\HUD\HeartSprite.cs" />
+    <Compile Include="Lib\GAssets\HUD\Hud.cs" />
+    <Compile Include="Lib\GAssets\HUD\PointDisplay.cs" />
+    <Compile Include="Lib\GAssets\Inventory\Inventory.cs" />
+    <Compile Include="Lib\GAssets\Items\Chests\ItemChest.cs" />
+    <Compile Include="Lib\GAssets\Items\Chests\TreasureChest.cs" />
+    <Compile Include="Lib\GAssets\Items\Gates\Gate.cs" />
+    <Compile Include="Lib\GAssets\Items\Gates\LockedGate.cs" />
+    <Compile Include="Lib\GAssets\Items\Gates\OpenGate.cs" />
+    <Compile Include="Lib\GAssets\Items\HealthPickup.cs" />
+    <Compile Include="Lib\GAssets\Items\HeartCanister.cs" />
+    <Compile Include="Lib\GAssets\Items\Key.cs" />
+    <Compile Include="Lib\GAssets\Items\Points\BurstPoint.cs" />
+    <Compile Include="Lib\GAssets\Items\Chests\Chest.cs" />
+    <Compile Include="Lib\GAssets\Items\Points\TreasureItem.cs" />
+    <Compile Include="Lib\GAssets\Items\SaveStation.cs" />
+    <Compile Include="Lib\GAssets\BodySprite.cs" />
+    <Compile Include="Lib\GAssets\Living\Enemies\Assist\EnemyHealthBar.cs" />
+    <Compile Include="Lib\GAssets\Living\Enemies\Assist\EnemyProjectile.cs" />
+    <Compile Include="Lib\GAssets\Living\Enemies\Crawler.cs" />
+    <Compile Include="Lib\GAssets\Living\Enemies\Crusher.cs" />
+    <Compile Include="Lib\GAssets\Living\Enemies\Jumper.cs" />
+    <Compile Include="Lib\GAssets\Living\Enemies\Bat.cs" />
+    <Compile Include="Lib\GAssets\Living\Enemies\Fortress.cs" />
+    <Compile Include="Lib\GAssets\Living\Enemy.cs" />
+    <Compile Include="Lib\GAssets\Living\Player.cs" />
+    <Compile Include="Lib\GAssets\Items\Points\Coin.cs" />
+    <Compile Include="Lib\GAssets\Sprite.cs" />
+    <Compile Include="Lib\GAssets\TypeDef\IntersectingPositions.cs" />
+    <Compile Include="Lib\GAssets\Volatile\Implementation.cs" />
+    <Compile Include="Lib\GAssets\Camera\Camera.cs" />
+    <Compile Include="Lib\Exceptions\ChildExceptions\AnimationException.cs" />
+    <Compile Include="Lib\Exceptions\ChildExceptions\CollisionException.cs" />
+    <Compile Include="Lib\Exceptions\ChildExceptions\FatalException.cs" />
+    <Compile Include="Lib\GAssets\Weapons\Shuriken.cs" />
+    <Compile Include="Lib\GAssets\Weapons\Sword.cs" />
+    <Compile Include="Lib\GAssets\Weapons\Weapon.cs" />
+    <Compile Include="Lib\Global\GameStates.cs" />
+    <Compile Include="Lib\Global\GameWindow\GamePaused.cs" />
+    <Compile Include="Lib\Global\GameWindow\GameRunning.cs" />
+    <Compile Include="Lib\Global\GameWindow\GameWindowAssets\Button.cs" />
+    <Compile Include="Lib\Global\GameWindow\GameWindowAssets\ButtonList.cs" />
+    <Compile Include="Lib\Global\GameWindow\GameWindowAssets\MultichoiceButton.cs" />
+    <Compile Include="Lib\Global\GameWindow\GameWindowAssets\PushableText.cs" />
+    <Compile Include="Lib\Global\GameWindow\GameWindowAssets\SaveButton.cs" />
+    <Compile Include="Lib\Global\GameWindow\GameWindowAssets\TextButton.cs" />
+    <Compile Include="Lib\Global\GameWindow\Home.cs" />
+    <Compile Include="Lib\Global\GameWindow\PlayerDeceased.cs" />
+    <Compile Include="Lib\Global\GameWindow\SaveLoad.cs" />
+    <Compile Include="Lib\Global\GameWindow\Settings.cs" />
+    <Compile Include="Lib\Global\GameWindow\%28Window%29.cs" />
+    <Compile Include="Lib\Global\GlobalVars\Convert.cs" />
+    <Compile Include="Lib\Global\GlobalVars\Content.cs" />
+    <Compile Include="Lib\Global\GlobalVars\LevelEditor.cs" />
+    <Compile Include="Lib\Global\GlobalVars\Physics.cs" />
+    <Compile Include="Lib\Global\GlobalVars\DrawMethods.cs" />
+    <Compile Include="Lib\Global\GlobalVars\BasicMath.cs" />
+    <Compile Include="Lib\Global\GlobalVars\ImageManipulation.cs" />
+    <Compile Include="Lib\Global\GlobalVars\MapZone.cs" />
+    <Compile Include="Lib\Global\GlobalVars\CollectionManipulator.cs" />
+    <Compile Include="Lib\Global\GlobalVars\Misc.cs" />
+    <Compile Include="Lib\Global\GlobalVars\TextureCreation.cs" />
+    <Compile Include="Lib\Global\GlobalVars\MonoGameImplement.cs" />
+    <Compile Include="Lib\Global\GlobalVars\PeripheralIO.cs" />
+    <Compile Include="Lib\Global\GlobalVars\FileIO.cs" />
+    <Compile Include="Lib\Global\GlobalVars\Encryption.cs" />
+    <Compile Include="Lib\Global\GlobalVars\Variables.cs" />
+    <Compile Include="Lib\Global\GlobalVars\EntityGenerators.cs" />
+    <Compile Include="Lib\Global\GlobalVars\Main\GlobalVars.cs" />
+    <Compile Include="Lib\Global\Batches.cs" />
+    <Compile Include="Lib\Global\MonoGameObjectStore.cs" />
+    <Compile Include="Lib\God.cs" />
+    <Compile Include="Lib\InputOutput\MapZone\AssetTrace.cs" />
+    <Compile Include="Lib\InputOutput\Parsers\IniParser.cs" />
+    <Compile Include="Lib\Interfaces\IBlock.cs" />
+    <Compile Include="Lib\Interfaces\IBody.cs" />
+    <Compile Include="Lib\Interfaces\IBoundary.cs" />
+    <Compile Include="Lib\Interfaces\IBoundaryContainer.cs" />
+    <Compile Include="Lib\Interfaces\ICollideable.cs" />
+    <Compile Include="Lib\Interfaces\IContextualised.cs" />
+    <Compile Include="Lib\Interfaces\IDamage.cs" />
+    <Compile Include="Lib\Interfaces\IInitializableEntity.cs" />
+    <Compile Include="Lib\Interfaces\IInteractable.cs" />
+    <Compile Include="Lib\Interfaces\IItem.cs" />
+    <Compile Include="Lib\Interfaces\IMonoGameObject.cs" />
+    <Compile Include="Lib\Interfaces\IPredefinedTexture.cs" />
+    <Compile Include="Lib\Interfaces\IPushable.cs" />
+    <Compile Include="Lib\Interfaces\IVolatile.cs" />
+    <Compile Include="Lib\InputOutput\InputOutputManager.cs" />
+    <Compile Include="Lib\InputOutput\OneTimePad.cs" />
+    <Compile Include="Lib\InputOutput\SaveManager.cs" />
+    <Compile Include="Lib\InputOutput\SettingsManager.cs" />
+    <Compile Include="Lib\InputOutput\MapZone\Map.cs" />
+    <Compile Include="Lib\InputOutput\Parsers\MapParser.cs" />
+    <Compile Include="Lib\InputOutput\Parsers\Parser.cs" />
+    <Compile Include="Lib\InputOutput\Parsers\ZoneCommandImplement\Assistance.cs" />
+    <Compile Include="Lib\InputOutput\Parsers\ZoneCommandImplement\Implement.cs" />
+    <Compile Include="Lib\InputOutput\Parsers\ZoneParser.cs" />
+    <Compile Include="Lib\InputOutput\MapZone\Zone.cs" />
+    <Compile Include="Lib\Misc\Colored.cs" />
+    <Compile Include="Lib\Misc\DashArgs.cs" />
+    <Compile Include="Lib\Misc\PushArgs.cs" />
+    <Compile Include="Lib\Misc\CommandLineHelp.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\StartUp\StartUpMethods.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.AvalonEdit, Version=5.0.3.0, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL">
+      <HintPath>..\packages\AvalonEdit.5.0.3\lib\Net40\ICSharpCode.AvalonEdit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IronPython, Version=2.7.5.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL" />
+    <Reference Include="IronPython.Modules, Version=2.7.5.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL" />
+    <Reference Include="IronPython.SQLite, Version=2.7.5.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL" />
+    <Reference Include="IronPython.Wpf, Version=2.7.5.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Scripting, Version=1.1.0.20, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Scripting.Metadata, Version=1.1.0.20, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL" />
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OpenTK, Version=2.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenTK.2.0.0\lib\net20\OpenTK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HA.ico" />
+    <Content Include="PyScripts\input_parser.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PyScripts\OS\abc.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PyScripts\OS\genericpath.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PyScripts\OS\linecache.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PyScripts\OS\ntpath.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PyScripts\OS\os.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PyScripts\OS\stat.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PyScripts\OS\types.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PyScripts\OS\UserDict.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PyScripts\OS\warnings.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PyScripts\OS\_abcoll.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PyScripts\OS\_weakrefset.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PyScripts\system_parser.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\error.gif" />
+    <None Include="Resources\Abort.png" />
+    <None Include="Resources\Cancel.png" />
+    <None Include="Resources\Clear.png" />
+    <None Include="Resources\Copy.png" />
+    <Content Include="TileBox.dll" />
+    <None Include="OpenTK.dll.config" />
+    <None Include="Resources\29275.png" />
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\" />
+    <Folder Include="Binary\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Lib\Forms\ErrorMessage\ErrorMessage.resx">
+      <DependentUpon>ErrorMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\AnimationView.resx">
+      <DependentUpon>AnimationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\EditFrameDialog.resx">
+      <DependentUpon>EditFrameDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\AnimationView\RenameAnimationSequenceDialog.resx">
+      <DependentUpon>RenameAnimationSequenceDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Editor.resx">
+      <DependentUpon>Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\Asset View\AssetView.resx">
+      <DependentUpon>AssetView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\Asset View\NewAssetDialog.resx">
+      <DependentUpon>NewAssetDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\EditEntityView.resx">
+      <DependentUpon>EditEntityView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\TileMap.resx">
+      <DependentUpon>TileMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\SetZoneDimensions.resx">
+      <DependentUpon>SetZoneDimensions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Editor\Lib\Forms\SetZoomDialog.resx">
+      <DependentUpon>SetZoomDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Editor\ZoneEditor.resx">
+      <DependentUpon>ZoneEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Help\Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\ZoneFeatures.resx">
+      <DependentUpon>ZoneFeatures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Script\ScriptEditor.resx">
+      <DependentUpon>ScriptEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lib\Forms\LevelEditor\Assistive Classes\Forms\SetInitialZone.resx">
+      <DependentUpon>SetInitialZone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
